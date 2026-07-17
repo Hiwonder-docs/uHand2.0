@@ -1,8 +1,51 @@
+/* 添加返回主项目的按钮 */
+.return-to-main {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.return-to-main:hover {
+    background: #45a049;
+}
+
+/* 为移动端调整位置 */
+@media (max-width: 768px) {
+    .return-to-main {
+        top: 60px;
+        right: 10px;
+    }
+}
 section p {
     margin: 0 0 18px;
 }
+.wy-side-scroll .wy-menu-vertical p.caption{
+     font-size: 16px;
+     color: #fff;
+     padding: 0 .618em;
+}
 .highlight span.err{
     border:none;
+}
+.caption{
+    display:none;
+}
+.wy-menu-vertical li button.toctree-expand{
+    color: #838383;
+}
+.wy-nav-side .wy-menu-vertical header, .wy-menu-vertical p.caption{
+    color: #f98800;
+    text-transform: unset;
+}
+.wy-nav-side .wy-menu-vertical li.toctree-l2 button.toctree-expand{
+    pointer-events:none;
 }
 .wy-menu-vertical > ul > li:last-child >a{
     display: block;
@@ -12,27 +55,35 @@ section p {
     color: #fff;
     border-radius: 8px;
 }
-.caption{
-    display:none;
-}
-.wy-nav-side .wy-menu-vertical header, .wy-menu-vertical p.caption{
-    color: #f98800;
-    text-transform: unset;
-}
-.wy-nav-side .wy-menu-vertical li.toctree-l2 button.toctree-expand{
-    pointer-events:none;
-}
 .wy-nav-side .wy-side-nav-search input[type=text]{
-     border-color: #f98800;
+     border-color: #F29401;
+}
+.wy-side-nav-search>div.switch-menus>div.language-switch, .wy-side-nav-search>div.switch-menus>div.version-switch
+{
+    background-color:#f1c269;
+}
+.wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select{
+    color: #000;
+    text-transform: capitalize;
+    margin-right: -1.7rem;
+}
+.wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select:hover{
+    color: #000;
+}
+.wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch:after{
+    color: #000;
+    font-size: 23px;
+    margin-left: -15px;
+    margin-top: 0px;
 }
 .wy-breadcrumbs-aside a{
-    color: #f98800;
+    color: #F29401;
 }
 section .rst-content .admonition{
     background: #e3e3e3;
 }
 section .rst-content .note .admonition-title{
-    color: #f98800;
+    color: #F29401;
     background: #343131;
 }
 .wy-grid-for-nav .wy-side-nav-search{
