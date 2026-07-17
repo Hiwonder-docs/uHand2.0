@@ -84,7 +84,7 @@ def replace_gfm_callouts(app, docname, source):
 def setup(app):
     app.connect("source-read", replace_gfm_callouts)
 
-project = 'TonyPi & TonyPi Pro'
+project = 'uHand2.0'
 copyright = '2025, Hiwonder'
 author = 'Hiwonder'
 release = 'v2.0'

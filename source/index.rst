@@ -1,15 +1,15 @@
-.. TonyPi & TonyPi Pro documentation master file, created by
+.. uHand2.0 Pro documentation master file, created by
    sphinx-quickstart on Thu Jul 25 14:39:47 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 ============
-TonyPi & TonyPi Pro
+uHand2.0
 ============
 
 .. toctree::
    :maxdepth: 2
-   :caption: TonyPi & TonyPi Pro
+   :caption: uHand2.0
 
    docs/1.Getting_Ready.md
    docs/2.Remoto_Control.md
